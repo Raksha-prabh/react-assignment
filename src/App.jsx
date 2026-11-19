@@ -9,7 +9,7 @@ import Question4 from "./pages/Question4";
 function App() {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/react-assignment">
 
             <Routes>
 
