@@ -4,8 +4,9 @@ import HomeButton from "../components/HomeButton";
 function Question4() {
 
     function openTeam(team) {
-        window.location.href = "/teams/Team.html?team=" + team;
-    }
+    window.location.href =
+        import.meta.env.BASE_URL + "teams/Team.html?team=" + team;
+}
 
     return (
         <div style={{
